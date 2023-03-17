@@ -250,5 +250,210 @@
             Command="{Binding RegionOperatorCommand}"
             CommandParameter=")" />
 
+        <Button
+            Grid.Row="6"
+            Grid.Column="3"
+            Grid.ColumnSpan="2"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="AC" 
+            Command="{Binding ResetCommand}" />
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="3"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="×" 
+            Command="{Binding MathOperatorCommand}" 
+            CommandParameter="×" />
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="4"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="÷" 
+            Command="{Binding MathOperatorCommand}" 
+            CommandParameter="÷" />
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="3"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="+" 
+            Command="{Binding MathOperatorCommand}" 
+            CommandParameter="+" />
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="4"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="-" 
+            Command="{Binding MathOperatorCommand}" 
+            CommandParameter="-" />
+
+        <Button
+            Grid.Row="9"
+            Grid.Column="3"
+            Grid.ColumnSpan="2"
+            Style="{StaticResource OperatorButtonStyle}"
+            Text="="
+            FontSize="28"
+            Command="{Binding CalculateCommand}" />
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="0"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="7"
+            Command="{Binding NumberInputCommand}" 
+            CommandParameter="7"/>
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="8"
+            Command="{Binding NumberInputCommand}" 
+            CommandParameter="8"/>
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="2"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="9"
+            Command="{Binding NumberInputCommand}" 
+            CommandParameter="9"/>
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="8"
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="8" />
+
+        <Button
+            Grid.Row="6"
+            Grid.Column="2"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="9"
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="9" />
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="0"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="4"
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="4" />
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="5"
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="5" />
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="2"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="6"
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="6" />
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="0"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="1"
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="1" />
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="2"
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="2" />
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="2"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="3"
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="3" />
+
+        <Button
+            Grid.Row="9"
+            Grid.Column="0"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="0"
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="0" />
+
+        <Button
+            Grid.Row="9"
+            Grid.Column="1"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="."
+            Command="{Binding NumberInputCommand}"
+            CommandParameter="." />
+
+        <Button
+            Grid.Row="9"
+            Grid.Column="2"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="⌫"
+            Command="{Binding BackspaceCommand}" />
+
+        <BoxView
+            Grid.Row="6"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            HeightRequest="1"
+            BackgroundColor="{StaticResource BorderColor}" />
+
+        <BoxView
+            Grid.Row="7"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            HeightRequest="1"
+            BackgroundColor="{StaticResource BorderColor}" />
+
+        <BoxView
+            Grid.Row="8"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            HorizontalOptions="Fill"
+            VerticalOptions="End"
+            HeightRequest="1"
+            BackgroundColor="{StaticResource BorderColor}" />
+
+        <BoxView
+            Grid.Row="6"
+            Grid.RowSpan="4"
+            Grid.Column="0"
+            HorizontalOptions="End"            
+            VerticalOptions="Fill"
+            WidthRequest="1"
+            BackgroundColor="{StaticResource BorderColor}"/>
+
+        <BoxView
+            Grid.Row="6"
+            Grid.RowSpan="4"
+            Grid.Column="1"
+            HorizontalOptions="End"            
+            VerticalOptions="Fill"
+            WidthRequest="1"
+            BackgroundColor="{StaticResource BorderColor}"/>
+
     </Grid>
 </ContentPage>
