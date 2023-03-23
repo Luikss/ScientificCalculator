@@ -1,6 +1,4 @@
-﻿using CommunityToolkit.Mvvm.Input;
-
-namespace ViewModels
+﻿namespace ViewModels
 {
     [INotifyPropertyChanged]
     internal partial class CalculatorPageViewModel
@@ -38,6 +36,10 @@ namespace ViewModels
             try
             {
                 var inputString = NormalizeInputString();
+                var expression = new Expression(inputString);
+                var result = expression.Evaluate();
+
+                CalculatedResult = result.ToString();
             }
             catch
             {
